@@ -1,2 +1,2 @@
 #!/bin/bash
-passwd /etc/passwd | sort
+grep /etc/passwd | cut -d':' -f1,9
