@@ -1,2 +1,2 @@
 #!/bin/bash
-cut -d':' -f1,9 /etc/passwd
+cut -d':' -f8,9 /etc/passwd
